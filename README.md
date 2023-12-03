@@ -1,8 +1,18 @@
-# React + Vite
+# TP Final 2023
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+REQUISITOS OBLIGATORIOS
+● Utilizar React para construir la aplicación.
+● Consumir la API de TMDB para obtener información sobre películas y series. Los
+estudiantes deben realizar las solicitudes HTTP necesarias para obtener datos
+relevantes.
+https://www.themoviedb.org/?language=es
+● Implementar useState y useEffect de manera adecuada en el proyecto.
+● La aplicación debe contar con al menos dos vistas principales (por ejemplo, una página
+de inicio y una página de detalles de película/serie).
+● Proporcionar funcionalidades para buscar y ver detalles de películas y series.
+● Crear una interfaz de usuario atractiva y funcional. Los estilos son libres y deben ser
+coherentes con el diseño de Netflix.
 
-Currently, two official plugins are available:
+https://api.themoviedb.org/3/movie/550?api_key=803580c46a07cda0c4f9ffcfd17bc4e6
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+utilizamos npm axios

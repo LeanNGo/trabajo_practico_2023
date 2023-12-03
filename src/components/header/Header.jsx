@@ -4,7 +4,7 @@ const Header = ({logo}) => {
   return (
     <div>
         <header>
-            <nav><button class="menu">≡</button><img src={logo} alt="logo" class="logo" /><button>🔍</button><button>⋯</button></nav>
+            <nav><button className="menu">≡</button><img src={logo} alt="logo" className="logo" /><button>🔍</button><button>⋯</button></nav>
         </header>
     </div>
   )

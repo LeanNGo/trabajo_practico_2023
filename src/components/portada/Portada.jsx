@@ -5,7 +5,7 @@ import Header from '../header/Header'
 const Portada = ({letras, logo}) => {
   return (
     <>
-        <div class="portada">
+        <div className="portada">
             <Header logo={logo}/>
             <TituloPortada letras={letras}/>            
         </div>
