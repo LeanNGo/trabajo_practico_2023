@@ -1,25 +1,25 @@
 import React from 'react';
-import RequestMovieApp from './apis/RequestMovieApp';
-import Header from './components/header/Header';
+import RequestMovieApp from './request/RequestMovieApp';
 import Portada from './components/portada/Portada';
+import Cards from './components/cards/Cards';
+import GroupCards from './components/conjunto_cards/GroupCards';
+import { getMovieService } from './services/movieService';
+
 
 
 const App = () => {
+  const {movies} = RequestMovieApp(getMovieService)
   return (
     <div>
+      <Portada/>       
+      <GroupCards
+        movies={movies}
+        renderItem={(item)=>{
+            return <Cards key={item.id} name={item.name||item.title} image={`https://image.tmdb.org/t/p/w200/${item.poster_path}`}/>
+        }}
+     />
       
-      <Portada/>                
-      <RequestMovieApp/>
-
     </div> 
   )  
 }
-/*
-<Portada letras={letras} logo={logo}/>      
-      <Cards section={"section 1"}/>
-      <Cards section={"section 2"}/>
-      <Cards section={"section 3"}/>
-      <LogoNetflix logoN={logoN} />
-
-*/
 export default App
