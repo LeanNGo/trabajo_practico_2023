@@ -16,3 +16,6 @@ coherentes con el diseño de Netflix.
 https://api.themoviedb.org/3/movie/550?api_key=803580c46a07cda0c4f9ffcfd17bc4e6
 
 utilizamos npm axios
+
+testing
+https://www.robinwieruch.de/vitest-react-testing-library/
