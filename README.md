@@ -19,3 +19,9 @@ utilizamos npm axios
 
 testing
 https://www.robinwieruch.de/vitest-react-testing-library/
+
+GITHUB actions in VERCEL
+https://vercel.com/guides/how-can-i-use-github-actions-with-vercel
+
+artículo de variable de entorno VERCEL
+https://vitejs.dev/guide/env-and-mode
